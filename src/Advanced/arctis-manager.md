@@ -33,10 +33,3 @@ To launch the system tray icon automatically on login, copy its desktop entry to
 cp ~/.local/share/applications/ArctisManagerSystray.desktop ~/.config/autostart/
 ```
 
-### Verification (Optional)
-To verify the daemon is running and can see your device, run this on your host:
-
-```bash
-lam-cli devices list
-```
-
